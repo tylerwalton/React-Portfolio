@@ -7,22 +7,17 @@ import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div>
+    <div> 
       <Head>
-        <title>Tyler | Full-Stack Developer</title>
+          <title>Tyler | Full-Stack Developer</title>
         <meta
           name="description"
           content="I’m a full stack web developer specializing in Javascript, SQL, React, CSS, HTML and Node"
         />
         <link rel="icon" href="/fav.png" />
       </Head>
-      <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
     </div>
-  );
+  )
 }
 
 import { Inter } from "next/font/google";
